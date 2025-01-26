@@ -1,4 +1,4 @@
-FROM quay.io/hansadewmina/dew-md:latest
+FROM quay.io/hansadewmina/dew-md
 
 RUN git clone https://github.com/KING-HANSA/DEW-MD-NEW /root/DEW-MD-NEW
 WORKDIR /root/DEW-MD-NEW/
