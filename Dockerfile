@@ -1,4 +1,4 @@
-FROM quay.io/hansadewmina
+FROM quay.io/hermit/hermit-ser:latest
 RUN git clone https://github.com/KING-HANSA/DEW-MD-NEW /root/DEW-MD-NEW
 WORKDIR /root/DEW-MD-NEW/
 RUN npm install
